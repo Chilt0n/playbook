@@ -1,0 +1,221 @@
+body {
+  background-color: #0e1931 !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  background-color: #4f82f2;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #4f82f2;
+  color: white;
+}
+
+
+.intro img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
+
+.intro h1 {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  padding: 100px 100px 50px 100px;
+}
+
+.main_button {
+  color: white;
+  background-color: #4f82f2;
+  border-color: #4f82f2;
+  width: 200px;
+  height: 50px;
+  border-radius: 1000px;
+
+}
+
+.main_button:hover {
+  color: #4f82f2;
+  background-color: white;
+}
+
+.copy_button {
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 1000px;
+}
+
+.copy_button:hover {
+  color: white;
+  background-color: #4f82f2;
+  border-color: #4f82f2;
+}
+
+.active {
+  color: #0e1931;
+  background-color: #4f82f2;
+  border-color: #4f82f2;
+}
+
+.buttons {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondary_buttons {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.issue {
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.issue h1 {
+  text-align: center;
+}
+
+.issue li {
+  line-height: 30px;
+}
+
+.issue p {
+  color: #4f82f2;
+}
+
+.explination {
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.explination p {
+  color: black;
+  line-height: 40px;
+}
+
+.macros {
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+}
+
+.macros p {
+  color: #4f82f2;
+}
+
+.resources {
+  color: black;
+  padding-top: 50px;
+}
+
+.resources h1 {
+  text-align: center;
+}
+
+.resources p {
+  color: #4f82f2;
+}
+
+.resources a {
+  color: #4f82f2;
+}
+
+img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.card {
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 50px 0 #4f82f2;
+  padding: 50px;
+}
+
+#priceline {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.explination h1,
+.issue h1,
+.macros h1,
+.resources h1 {
+  font-weight: 100;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.search_bar {
+  padding-top: 50px;
+  margin-left: 40%;
+}
+
+.main_button:focus,
+.main_button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.copy_button:focus,
+.copy_button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+#foxhead {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 10%;
+}
+
+#not_detected {
+  width: 40%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links {
+  padding-left: 50px;
+  color: white;
+}
+
+a {
+  color: #4f82f2 !important;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px 0px;
+}
+
+.step {
+  text-emphasis: bold;
+}
