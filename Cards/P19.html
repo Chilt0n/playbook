@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <ul class="nav nav-pills nav-fill justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">General</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="shipping.html">Shipping</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="platform.html">Platform</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="client.html">Client</a>
+        </li>
+    </ul>
+
+    <!--INTRO-->
+    <section class="intro">
+        <div class="row">
+            <div class="col">
+                <img src="/images/fox_head.png" alt="" />
+                <h1>P19: Switch Wallets</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--EXPLINATION-->
+    <section class="explination">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Issue Explanation</h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <p>
+                        Currently, the ShapeShift platform only supports one wallet at a time. When you
+                        switch wallets, your first wallet will be ejected and forgotten from the platform until you
+                        reconnect. This will NOT affect the data or assets on that wallet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--USER ISSUE-->
+    <section id="mac" class="issue">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Follow these steps: </h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <ol>
+                        <li><b>P19 - T1:</b> Ask if user is if the wallet they are switching to
+                            connecting a new wallet that has
+                            not been initialized or a wallet that’s already been set up (Do you already have the
+                            recovery sentence? If no, this is a new wallet, if yes, it’s already been set up). </li>
+                        <li><b>P19 - T2:</b> P19-T2 On the top right corner, click the drop-down arrow
+                            and select “Switch
+                            Wallet” to confirm that you’d like to switch the wallet you’re using on the Platform.</li>
+                        <img src="/Images/p19-1.png" alt="">
+                        <li><b>P19 - T3:</b> Check the “I understand” box to confirm the message
+                            above.</li>
+                        <img src="/Images/p19-2.png" alt="">
+                        <li><b>P19 - T4:</b> Select which crypto wallet you’d like to connect:</li>
+                        <img src="/Images/p19-3.png" alt="">
+                        <li><b>P19 - T5:</b> Pair your new wallet by accepting the Terms of Service and Privacy Policy
+                            by
+                            checking the box. Then click the “Pair KeepKey” button to continue.</li>
+                        <img src="/Images/p19-4.png" alt="">
+                        <li><b>P19 - T6:</b> In the pop up window on the left, highlight the wallet you would like to
+                            pair and
+                            then click "Connect". If device is not detected, have user refresh and try again, if it
+                            still fails to connect move to P1 [link to P1]</li>
+                        <img src="/Images/p19-5.png" alt="">
+                        <li><b>P19 - T7:</b> If new wallet begin initialization [link to this section] (Reference
+                            P19-T1)</li>
+                        <li><b>P19 - T8:</b> If device is already set up, confirm your PIN to enter your device onto
+                            the
+                            ShapeShift Platform!</li>
+                        <img src="/Images/p19-6.png" alt="">
+                        <li><b>P19 - T9:</b> Once PIN has been entered successfully your device will be connected to
+                            the
+                            platform and you can view balances. Done!.</li>
+                        <li><b>P19 - T10:</b> If unable to assist customer with the above, escalate to: change Assignee
+                            >
+                            Escalations and leave internal note.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--RESOURCES-->
+    <section class="resources">
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    <h1>Post-troubleshooting Steps</h1>
+                    <!-- <hr class="centered" id="priceline" width="5%" style="border: 1px solid white;" /> -->
+                    <ul>
+                        <li><b>Step 1:</b> Tag support ticket with CODE [ code = Issue # + Step you solved the problem
+                            with in
+                            the
+                            troubleshooting list, example: P1T2 (platform issue 1, troubleshooting step 2). If you can
+                            not solve with any of the above steps, tag as P19NONE.</li>
+                        <li><b>Step 3:</b> If after hours, follow FIRES protocol</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BACK BUTTON-->
+    <section class="buttons">
+        <div class="row">
+            <div class="col-3">
+                <button onclick="location.href='index.html'" class="main_button">
+                    BACK
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section>
+        <div class="row">
+            <div class="col">
+                <img id="foxhead" src="/Images/fox_head.png" alt="" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <ul class="nav nav-pills nav-fill justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">General</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="shipping.html">Shipping</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="platform.html">Platform</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="client.html">Client</a>
+        </li>
+    </ul>
+
+    <!--INTRO-->
+    <section class="intro">
+        <div class="row">
+            <div class="col">
+                <img src="/images/fox_head.png" alt="" />
+                <h1>P16: How to update firmware and bootloader (Platform with Updater App) </h1>
+            </div>
+        </div>
+    </section>
+
+    <!--EXPLINATION-->
+    <section class="explination">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Issue Explanation</h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <p>
+                        The updater app is used to update the firmware and bootloader on your KeepKey device. You will
+                        be prompted to update your firmware and bootloader during the initialization of a new KeepKey.
+                        Older KeepKeys that are already set up may still require updates.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--USER ISSUE-->
+    <section id="mac" class="issue">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Follow these steps: </h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <ol>
+                        <li><b>P16 - T1:</b> Download the KeepKey Updater App by Visiting <a href="https://beta.shapeshift.com/updater-download#"></a>
+                            and select “Get the App” </li>
+                        <li><b>P16 - T2:</b> Open the .dmg or .exe file after it downloads (make sure you do not have
+                            beta.shapeshift.com or the old KeepKey client open, or the Updater will not detect your
+                            device) </li>
+                        <li><b>P16 - T3:</b> If “Update Required” Click "Update Now" </li>
+                        <img width="40%" src="/Images/P16-1.png" alt="">
+                        <li><b>P16 - T4:</b> Choose whether you’re using a new KeepKey or if you have set it up before
+                            and follow the on-screen directions:</li>
+                        <img src="/Images/P16-2.png" alt="">
+                        <li><b>P16 - T5:</b> It will ask if you have your 12-word seed. Please make sure user has this
+                            before continuing. </li>
+                        <img src="/Images/P16-3.png" alt="">
+                        <img src="/Images/P16-4.png" alt="">
+                        <li><b>P16 - T6:</b> Unplug the KeepKey and plug it back in while holding the button down.
+                        </li>
+                        <img src="/Images/P16-5.png" alt="">
+                        <li><b>P16 - T7:</b> Press the button on the device to confirm the update. You will see the
+                            arrow on the screen blackout once it's time to release. Do not unplug your KeepKey during
+                            this time.
+                        </li>
+                        <img src="/Images/P16-6.png" alt="">
+                        <li><b>P16 - T8:</b> Disconnect and reconnect your device.
+                        </li>
+                        <img src="/Images/P16-7.png" alt="">
+                        <li><b>P16 - T9:</b> You will see the screen that says “Bootloader Updated” - Success!
+                        </li>
+                        <img src="/Images/P16-8.png" alt="">
+                        <li><b>P16 - T10:</b> Move to next update (if needed), follow pop-up instructions as it walks
+                            you through the same steps. Once all updates are complete, you will see this view:</li>
+                        <img src="/Images/P16-9.png" alt="">
+                        <li><b>P16 - T11:</b> Close the KeepKey Updater and return to the Platform. When you return to
+                            the ShapeShift Platform, click "Connect a Wallet" and select "KeepKey". You’ll then click
+                            "Pair KeepKey" one more time to connect it.
+                        </li>
+                        <li><b>P16 - T11:</b> If the updater app does not work, move to Upgrade Firmware with the
+                            KeepKey Client KK6 [link]
+                        </li>
+                        <li><b>P16 - T12:</b> If unable to assist customer with the above, escalate to: <b> change
+                                Assignee > Escalations </b> and leave internal note with details on issue.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--RESOURCES-->
+    <section class="resources">
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    <h1>Post-troubleshooting Steps</h1>
+                    <!-- <hr class="centered" id="priceline" width="5%" style="border: 1px solid white;" /> -->
+                    <ul>
+                        <li><b>Step 1:</b> Tag support ticket with CODE [ code = Issue # + Step you solved the problem
+                            with in the troubleshooting list, example: P1T2 (platform issue 1, troubleshooting step 2).
+                            If you can not solve with any of the above steps, tag as PXXNONE.</li>
+                        <li><b>Step 3:</b> If after hours, follow FIRES protocol</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BACK BUTTON-->
+    <section class="buttons">
+        <div class="row">
+            <div class="col-3">
+                <button onclick="location.href='index.html'" class="main_button">
+                    BACK
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section>
+        <div class="row">
+            <div class="col">
+                <img id="foxhead" src="/Images/fox_head.png" alt="" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

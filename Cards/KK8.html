@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <ul class="nav nav-pills nav-fill justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">General</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="shipping.html">Shipping</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="platform.html">Platform</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="client.html">Client</a>
+        </li>
+    </ul>
+
+    <!--INTRO-->
+    <section class="intro">
+        <div class="row">
+            <div class="col">
+                <img src="/images/fox_head.png" alt="" />
+                <h1>KK8: Wipe (and recover) device from KeepKey client</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--EXPLINATION-->
+    <section class="explination">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Issue Explanation</h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <p>
+                        A user may want to start fresh on a device and generate a new private key. In some rare cases
+                        wiping a device and restoring would solve functionality issues in the platform, but this step
+                        should only be used as last resort for functionality issues.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--USER ISSUE-->
+    <section id="mac" class="issue">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Follow these steps: </h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <ol>
+                        <li><b>KK8 - T1:</b> Open the KeepKey Google Chrome App Client with device plugged in. </li>
+                        <li><b>KK8 - T2:</b> Ensure the Platform is not also open - the KeepKey can only be detected by
+                            one program at a time. </li>
+                        <li><b>KK8 - T3:</b> Click the Settings gear at the top left of the client</li>
+                        <li><b>KK8 - T4:</b> Ensure you have your 12- word recovery phrase safely stored.</li>
+                        <li><b>KK8 - T5:</b> Click ‘Wipe Device’</li>
+                        <img src="/Images/KK8-1.png" alt="">
+                        <li><b>KK8 - T6:</b> Hold down the button on your KeepKey to confirm and wipe the device. Once
+                            this step is complete, your device has been wiped.</li>
+                        <img src="/Images/KK8-2.png" alt="">
+                        <li><b>KK8 - T7:</b> Begin initialization process see P4 [link]</li>
+                        <li><b>KeepKey Google Chrome App Client (Recover):</b></li>
+                        <li><b>KK8 - T8:</b> Open the KeepKey Google Chrome App Client</li>
+                        <li><b>KK8 - T9:</b> Connect your device to the client.</li>
+                        <li><b>KK8 - T9:</b> Connect your device to the client.</li>
+                        <li><b>KK8 - T10:</b> Click Recover KeepKey at the bottom right</li>
+                        <li><b>KK8 - T11:</b> Create a Label</li>
+                        <li><b>KK8 - T12:</b> Set a pin</li>
+                        <li><b>KK8 - T13:</b> Confirm your pin</li>
+                        <li><b>KK8 - T14:</b> Enter in your 12-word seed entering the cypher letters correctly on your
+                            device. Cypher means that each letter is represented by another letter and the legend is on
+                            the KeepKey screen. This code scrambles after each letter is written so pay attention to
+                            the KeepKey screen for each letter because the cypher will change.</li>
+                        <li><b>KK8 - T14:</b> Press ‘Enter’ & your KeepKey has been recovered!</li>
+                        <li><b>KK8 - T16:</b> If unable to assist customer with the above, escalate to: <b>change
+                                Assignee > Escalations and leave internal note.</b></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--RESOURCES-->
+    <section class="resources">
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    <h1>Post-troubleshooting Steps</h1>
+                    <!-- <hr class="centered" id="priceline" width="5%" style="border: 1px solid white;" /> -->
+                    <ul>
+                        <li><b>Step 1:</b> Tag support ticket with CODE [ code = Issue # + Step you solved the problem
+                            with in the troubleshooting list, example: P1T2 (platform issue 1, troubleshooting step 2).
+                            If you can not solve with any of the above steps, tag as PXXNONE.</li>
+                        <li><b>Step 3:</b> If after hours, follow FIRES protocol</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BACK BUTTON-->
+    <section class="buttons">
+        <div class="row">
+            <div class="col-3">
+                <button onclick="location.href='index.html'" class="main_button">
+                    BACK
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section>
+        <div class="row">
+            <div class="col">
+                <img id="foxhead" src="/Images/fox_head.png" alt="" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

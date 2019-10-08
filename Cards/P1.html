@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <ul class="nav nav-pills nav-fill justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">General</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="shipping.html">Shipping</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="platform.html">Platform</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="client.html">Client</a>
+        </li>
+    </ul>
+
+    <!--INTRO-->
+    <section class="intro">
+        <div class="row">
+            <div class="col">
+                <img src="/images/fox_head.png" alt="" />
+                <h1>P1: KeepKey Error Connecting on Platform / not detected (Mac or Win) </h1>
+            </div>
+        </div>
+    </section>
+
+    <!--EXPLINATION-->
+    <section class="explination">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Issue Explanation</h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <p>
+                        User’s KeepKey is not detected by their Mac/Win machine. That means on the Platform it says
+                        “disconnected” in the top right hand corner or “device not detected” in the pop up. [need image
+                        of this]
+                    </p>
+                    <img src="/Images/P1-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--USER ISSUE-->
+    <section id="mac" class="issue">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Follow these steps: </h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <ol>
+                        <li><b>P1 - T1:</b> Refresh and try to Connect Wallet again see P20 [link] </li>
+                        <li><b>P1 - T2:</b> Make sure beta.shapeshift.com isn’t open in +1 tabs/windows or the KeepKey
+                            client isn’t open (device will not be detected if it’s connected elsewhere) or updater app
+                        </li>
+                        <li><b>P1 - T3:</b> Forget > Refresh > Re-connect Device see P18 [link]</li>
+                        <li><b>P1 - T4:</b> Try A Different USB Port</li>
+                        <ul>
+                            <li>A. Unplug your KeepKey cable from your USB port (make sure KeepKey device is still
+                                connected to the other end of the cable). </li>
+                            <li>B. Plug usb into different USB port. </li>
+                        </ul>
+                        <img src="/Images/P1-2.png" alt="">
+                        <li><b>P1 - T5:</b> Try a completely new micro-usb cable (we do not sell
+                            cable separately). </li>
+                        <img src="/Images/P1-3.png" alt="">
+                        <li><b>P1 - T6:</b>Clear Cache/History > Refresh > Try P1-T1 again. </li>
+                        <ul>
+                            <li>A. In the Chrome browser, click ‘History’ in the top left side of the screen.</li>
+                            <li>B. Click ‘Show Full History’.</li>
+                            <li>C. On the left side you will see a button to click called ‘Clear Browsing Data’.</li>
+                            <li>D. Click ‘Clear Data’ and your history/cache will be cleared.</li>
+                        </ul>
+                        <li><b>P1 - T7:</b> Firmware Upgrade via Updater App see P16 [link]
+                            Platform Updater App Download-
+                        </li>
+                        <ul>
+                            <li>Windows: <a href="http://beta.shapeshift.com/keepkey-updater-pc.exe">http://beta.shapeshift.com/keepkey-updater-pc.exe</a></li>
+                            <li>Mac: <a href="http://beta.shapeshift.com/keepkey-updater-mac.dmg">http://beta.shapeshift.com/keepkey-updater-mac.dmg</a></li>
+                        </ul>
+                        <li><b>P1 - T8:</b> Firmware upgrade in KeepKey client if updater app doesn’t work, see KK6
+                            [link] </li>
+                        <li><b>P1 - T9:</b>
+                            Request logs from user so our developers can look further into the issue. (helpdesk on
+                            requesting logs)</li>
+                        <ul>
+                            <li><b>P1-T10A:</b> Re-create the error on beta.shapeshift.com
+                            </li>
+                            <li><b>P1-T10B:</b> Right click with your mouse and click inspect </li>
+                            <img width="80%" src="/Images/P1-4.png" alt="">
+                            <li><b>P1-T10C:</b> Click ‘Console’ </li>
+                            <img src="/Images/P1-5.png" alt="">
+                            <li><b>P1-T10D:</b> Right-click the code and select ‘Save As’ to save file to your
+                                computer. </li>
+                            <img src="/Images/P1-6.png" alt="">
+                            <li><b>P1-T10E:</b> Request the user reply to the email where logs were requested, and
+                                attach
+                                logs. </li>
+                            <li><b>P1-T10F:</b> Once logs are received, Assignee > Escalations and leave an internal
+                                note that
+                                logs need to be delivered to dev team. </li>
+                            <li><b>P1-T10G:</b> In - house team should include answers to the following questions when
+                                shipping logs to the dev team: </li>
+                            <ul>
+                                <li>1) what OS are they using? have they tried other OSes / machines?</li>
+                                <li>2) if it's windows, have you had them try the zadig workaround?
+                                </li>
+                                <li>3) if it's linux, are their udev rules up to date?
+                                </li>
+                                <li>4) what firmware version do they have on their device?
+                                </li>
+                                <li>5) what are the symptoms? (I can tell from these logs, and you should be able to as
+                                    well by now, that the device didn't connect, and isn't communicating with the
+                                    host).... what else do you know about what's going on?</li>
+                            </ul>
+                        </ul>
+                        <li><b>P1 - T11:</b> If unable to assist customer with the above, escalate to: <b> change
+                                Assignee > Escalations </b> and leave internal note with details on issue.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--RESOURCES-->
+    <section class="resources">
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    <h1>Post-troubleshooting Steps</h1>
+                    <!-- <hr class="centered" id="priceline" width="5%" style="border: 1px solid white;" /> -->
+                    <ul>
+                        <li><b>Step 1:</b> Tag support ticket with CODE [ code = Issue # + Step you solved the problem
+                            with in the troubleshooting list, example: P1T2 (platform issue 1, troubleshooting step 2).
+                            If you can not solve with any of the above steps, tag as PXXNONE.</li>
+                        <li><b>Step 3:</b> If after hours, follow FIRES protocol</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BACK BUTTON-->
+    <section class="buttons">
+        <div class="row">
+            <div class="col-3">
+                <button onclick="location.href='index.html'" class="main_button">
+                    BACK
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section>
+        <div class="row">
+            <div class="col">
+                <img id="foxhead" src="/Images/fox_head.png" alt="" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

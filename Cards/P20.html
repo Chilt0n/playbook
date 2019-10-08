@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <ul class="nav nav-pills nav-fill justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">General</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="shipping.html">Shipping</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="platform.html">Platform</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="client.html">Client</a>
+        </li>
+    </ul>
+
+    <!--INTRO-->
+    <section class="intro">
+        <div class="row">
+            <div class="col">
+                <img src="/images/fox_head.png" alt="" />
+                <h1>P20: Connect Wallet (user already has seed and PIN) </h1>
+            </div>
+        </div>
+    </section>
+
+    <!--EXPLINATION-->
+    <section class="explination">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Issue Explanation</h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <p>
+                        User wants to connect a wallet to the Platform, and their wallet is not new, they already have
+                        the 12-word seed, and PIN for device. If setting up a NEW wallet, please view P4 [link].
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--USER ISSUE-->
+    <section id="mac" class="issue">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h1>Follow these steps: </h1>
+                    <hr id="priceline" width="5%" style="border: 1px solid white;" />
+                    <ol>
+                        <li><b>P20 - T1:</b> Click the ‘Connect Wallet’ button in the middle of the page </li>
+                        <li><b>P20 - T2:</b> Select the hardware wallet device you are connecting. Current Options:
+                            Trezor and KeepKey. </li>
+                        <li><b>P20 - T3:</b> A pop-up window will appear on the top left side of the screen.</li>
+                        <li><b>P20 - T4:</b> Click the device you’d like to connect</li>
+                        <li><b>P20 - T5:</b> Screen will pop-up asking to enter your PIN</li>
+                        <li><b>P20 - T6:</b> Enter your PIN</li>
+                        <li><b>P20 - T7:</b> Click ‘Connect’ and your KeepKey will be connected.
+                        </li>
+                        <li><b>P20 - T8:</b> If device still does not connect, move to <a href="">P1-T2</a>
+                        </li>
+                        <li><b>P20 - T9:</b> If unable to assist customer with the above, escalate to: <b> change
+                                Assignee > Escalations </b> and leave internal note with details on issue.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--RESOURCES-->
+    <section class="resources">
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    <h1>Post-troubleshooting Steps</h1>
+                    <!-- <hr class="centered" id="priceline" width="5%" style="border: 1px solid white;" /> -->
+                    <ul>
+                        <li><b>Step 1:</b> Tag support ticket with CODE [ code = Issue # + Step you solved the problem
+                            with in the troubleshooting list, example: P1T2 (platform issue 1, troubleshooting step 2).
+                            If you can not solve with any of the above steps, tag as PXXNONE.</li>
+                        <li><b>Step 3:</b> If after hours, follow FIRES protocol</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BACK BUTTON-->
+    <section class="buttons">
+        <div class="row">
+            <div class="col-3">
+                <button onclick="location.href='index.html'" class="main_button">
+                    BACK
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section>
+        <div class="row">
+            <div class="col">
+                <img id="foxhead" src="/Images/fox_head.png" alt="" />
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
